@@ -208,12 +208,12 @@ html,body{
 	.blue p{
 		font-family: 'Segoe UI';
 		font-weight: lighter;
-		margin: 20px 10px;
-		font-size: 0.8em;
+		margin: 20px 30px;
+		font-size: 1em;
 	}
 
 	.strategy h1,	.title h1,.title-name{
-		font-size: 1.5em;
+		font-size: 1.7em;
 	}
 
 	.strategy-title{
@@ -225,8 +225,8 @@ html,body{
 		margin: 30px 0 10px 0;
 	}
 	.correct .inner{ 
-		height: 60px;
-		width: 80px;
+		height: 80px;
+		width: 100px;
 		margin: 10px 20px;
 	}
 
@@ -234,7 +234,7 @@ html,body{
 		margin-bottom: 8px;
 	}
 	.correct img{
-		height: 40px;
+		height: 60px;
 	}
 
 	.strategy p{
@@ -243,7 +243,7 @@ html,body{
 	}
 
 	.icon-blog{
-		height: 1.4em;
+		height: 1.6em;
 	}
 	
 	.blog-container div{
@@ -252,11 +252,11 @@ html,body{
 	}
 	
 	.blog-container h1{
-		font-size: 1em;
+		font-size: 1.2em;
 	}	
 
 	.blog-container p{
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	.blog-container a{
 		font-size: 0.9em;
