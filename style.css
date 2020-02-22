@@ -51,6 +51,7 @@ html,body{
 
 .title{
 	text-align: center;
+	margin-bottom: 8px;
 }
 
 .icon-blog{
@@ -161,6 +162,9 @@ html,body{
 	
 	.blog-container h1{
 		font-weight: bold;
+	}
+	hr{
+		display: none;
 	}
 
 	/*	.star li{
