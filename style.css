@@ -1,0 +1,264 @@
+html,body{
+	margin: 0;
+	height: 100%;
+}
+.container{
+	display: flex;
+	height: 100%;
+}
+.blue{
+	color: white;
+	background-color: #487ECF;
+}
+
+.heading{
+	font-family: 'Gotham';
+}
+
+.strategy h1,	.title h1, .title-name{
+	font-family: 'TT Norms';
+	font-weight: bold;
+	text-align: center;
+}
+
+.correct{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #487ECF;
+	font-family: Helvetica;
+	font-weight: bolder;
+	font-size: 0.8em;
+}
+
+.correct .inner{
+	display: flex;
+	justify-content: center;
+	padding-top:20px; 
+	border-radius: 50%; 
+	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.15);
+}
+
+.strategy p{
+	font-family: Roboto;
+	text-align: center; 
+}
+
+.blog{
+	margin-top: 50px;
+}
+
+.title{
+	text-align: center;
+}
+
+.icon-blog{
+	margin-right:  15px;
+	color: blue;
+}
+.blog-container a{
+	color: #487ECF;
+	text-decoration: none;
+}
+@media(min-width: 600px){
+	.blue{
+		width: 70%;
+		height: 90%;
+		padding-left: 80px;  
+	}
+
+	.nav{
+		padding: 0;
+	}
+
+	.nav li{
+		display: inline-block;
+		font-family: Helvetica;
+		padding:0 10px;
+		font-size: 1.2em; 
+	}
+
+	.nav a{
+		color: white;
+		text-decoration: none;
+	}
+	
+	.blue img{
+		float: right;
+		border-radius: 50%;
+		border: 15px solid white;  
+		margin-right: -175px; 
+		width: 350px;
+	}
+
+	.heading{
+		margin-top: 15%; 
+		display: inline-block;
+		font-size: 50px;
+	}
+
+	.blue p{
+		font-family: 'Segoe UI';
+		font-weight: lighter;
+		font-size: 1.1em;
+		padding-right: 250px; 
+	}
+	
+	.right{
+		width: 30%;
+		text-align: right;
+	}
+
+	.icon{
+		color: #487ECF;
+		padding: 15px 15px;
+		font-size: 20px;
+	}
+
+	.strategy h1,	.title h1,.title-name{
+		font-size: 2.5em;
+	}
+
+	.strategy-title{
+		border-bottom: 5px solid #487ECF;
+		padding-bottom: 4px;
+	}
+	
+	.correct .inner{
+		height: 120px;
+		width: 140px;
+		margin: 20px 45px;
+	}
+	
+	.correct img{
+		height: 100px;
+	}	
+	
+	.strategy p{
+		padding: 5px 12%; 
+	}
+
+	.icon-blog{
+		height: 2em;
+	}
+
+	.blog-container{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.blog-container div{
+		width: 35%;
+		padding: 5px 20px;
+		font-family: Roboto;
+	}
+	
+	.blog-container h1{
+		font-weight: bold;
+	}
+
+	/*	.star li{
+		font-family: 'Segoe UI';
+		font-weight: lighter;
+	}*/
+}
+
+@media(max-width: 599px){
+	.nav{
+		display: none;
+	} 
+
+	.mb-nav{
+		margin: 4px 8px 35px 0;
+		text-align: right;
+	}
+	.icon{
+		color: white;
+		padding: 0 5px;
+		font-size: 15px;
+	}
+
+	.blue{
+		text-align: center;
+		color: white;
+		background-color: #487ECF;
+		width: 100%;
+		height: 100%;
+	}	
+	
+	.right{
+		display: none;
+	}
+
+	.blue img{
+
+		border-radius: 50%;
+		border: 8px solid white;  
+		width: 50%;
+	}
+	
+	.heading{
+		margin-top: 8%;
+		font-size: 30px;
+		display: block;
+		text-align: center;
+	}
+	
+	.blue p{
+		font-family: 'Segoe UI';
+		font-weight: lighter;
+		margin: 20px 10px;
+		font-size: 0.8em;
+	}
+
+	.strategy h1,	.title h1,.title-name{
+		font-size: 1.5em;
+	}
+
+	.strategy-title{
+		border-bottom: 4px solid #487ECF;
+		padding-bottom: 5px;
+	}
+
+	.correct{
+		margin: 30px 0 10px 0;
+	}
+	.correct .inner{ 
+		height: 60px;
+		width: 80px;
+		margin: 10px 20px;
+	}
+
+	.outer{
+		margin-bottom: 8px;
+	}
+	.correct img{
+		height: 40px;
+	}
+
+	.strategy p{
+		padding: 5px 10%;
+		font-size: 0.9em; 
+	}
+
+	.icon-blog{
+		height: 1.4em;
+	}
+	
+	.blog-container div{
+		padding: 5px 20px;
+		font-family: Roboto;
+	}
+	
+	.blog-container h1{
+		font-size: 1em;
+	}	
+
+	.blog-container p{
+		font-size: 0.9em;
+	}
+	.blog-container a{
+		font-size: 0.9em;
+	}
+}
