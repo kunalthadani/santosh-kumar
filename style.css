@@ -61,6 +61,11 @@ html,body{
 	color: #487ECF;
 	text-decoration: none;
 }
+.title-name{
+	display: inline-block;
+	border-bottom: 5px solid #487ECF;
+	padding-bottom: 5px;
+}
 @media(min-width: 600px){
 	.blue{
 		width: 70%;
@@ -170,7 +175,7 @@ html,body{
 	} 
 
 	.mb-nav{
-		margin: 4px 8px 35px 0;
+		margin: 4px 8px 80px 0;
 		text-align: right;
 	}
 	.icon{
@@ -213,7 +218,7 @@ html,body{
 	}
 
 	.strategy h1,	.title h1,.title-name{
-		font-size: 1.7em;
+		font-size:2em;
 	}
 
 	.strategy-title{
@@ -243,7 +248,7 @@ html,body{
 	}
 
 	.icon-blog{
-		height: 1.6em;
+		height: 2em;
 	}
 	
 	.blog-container div{
